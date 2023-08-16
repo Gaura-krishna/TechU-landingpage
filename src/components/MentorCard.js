@@ -18,13 +18,16 @@ function MentorCards({ image, name, role,bgcolor }) {
           </div>
           <small class="text-muted">{role}</small>
         </div> */}
-        <div>
-          <div>
-            <img src='' alt=''/>
+        <div className='mentor-card'>
+          <div className='img-containter' style={{backgroundColor:`${bgcolor}`}}>
+            <img src={image} alt='' width={"100%"} height={"250"}/>
           </div>
-          <div>
-            <h5></h5>
-            <p></p>
+          <div className='mt-4'>
+            <h5>{name}</h5>
+            <p>{role}</p>
+            <span>
+              links
+            </span>
           </div>
         </div>
       </div>

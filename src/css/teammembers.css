@@ -81,3 +81,15 @@
     text-decoration-line: underline;
 }
 
+.mentor-card{
+    width:100%;
+    border: 1px solid #0C1326;
+    border-radius: 15px 15px 0px 0px;
+}
+.img-containter{
+    border-radius: 15px 15px 0px 0px;
+}
+.img-containter>img{
+    border-radius: 15px 15px 0px 0px;
+}
+
