@@ -15,7 +15,7 @@ function Testimonials() {
 
                 <div>
                 <Carousel/>
-                {/* <MyCarousel/> */}
+                
                 </div>
 
             </div>
