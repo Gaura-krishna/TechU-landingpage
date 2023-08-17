@@ -1,0 +1,164 @@
+.header {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../public//images/bg-color.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.navbar {
+  mix-blend-mode: darken;
+
+}
+
+.anchor-link {
+  text-decoration: none;
+  color: #0C1326;
+}
+
+.register-link {
+  border-radius: 25px;
+  padding: 10px 25px;
+  background: #3D155F;
+  color: #ffffff;
+}
+
+.nav-item {
+  margin: 1.5rem;
+  font-family: "Josefin Sans";
+  font-size: 24px;
+  font-weight: 400 !important;
+  line-height: 24px;
+
+}
+
+.online-courses {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 25px;
+
+}
+
+
+.heading a {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  border-radius: 30px;
+  padding: 6px 25px;
+  background: #3D155F;
+  color: #ffffff;
+
+}
+
+.play-button {
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.heading h1 {
+  font-family: Montserrat Alternates;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+
+}
+
+.table {
+  min-width: 250px;
+  max-width: 100%;
+
+}
+
+
+.scroll-container {
+  overflow: hidden;
+  width: 100%;
+  /* height: 50px;
+  border: 2px solid blueviolet; */
+
+}
+
+.scroll-text {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+
+.scroll-text li {
+  list-style: none;
+  width: 200px;
+  height: 60px;
+  margin:1rem;
+  padding: 20px 40px 20px 40px;
+  border-radius: 10px;
+  border: 0px;
+  background: #FAE7E1;
+  color: #A15288;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.scroll-text {
+
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+
+  -moz-animation: my-animation 20s linear infinite;
+  -webkit-animation: my-animation 20s linear infinite;
+  animation: my-animation 20s infinite linear;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+
+  }
+
+  to {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    /* scrolling */
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    opacity: 1;
+  }
+}
+
+.companies {
+  width: 100%;
+  align-items: center;
+  background-color: #0C1326;
+}

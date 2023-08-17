@@ -78,7 +78,7 @@ function Courses() {
     return (
         <>
             <div className='ps-5  Courses '>
-                <span className='badge'> <span><Stars className='stars' /> Popular Courses</span></span>
+                <span className=' badge'> <span><Stars className='stars' /> Popular Courses</span></span>
                 <div>
                     <span><h2 className='head py-3'>  Choose Our Top <span className='font-color'>Courses</span></h2></span>
                     <p className='sub-head'>lorem this is dummy text</p>
